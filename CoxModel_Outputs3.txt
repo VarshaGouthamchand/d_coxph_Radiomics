@@ -1,0 +1,148 @@
+Cox - Radiomics
+
+5 nodes 
+                           coef exp.coef.     SE lower_ci upper_ci    Z     P
+original_shape_MeshVolume 0.2605   1.29758 0.0718  1.12724  1.49366 4.14 3e-05
+                              coef exp.coef.      SE lower_ci upper_ci    Z
+original_firstorder_Energy 0.26701   1.30605 0.07164  1.13496  1.50294 4.27
+                               P
+original_firstorder_Energy 2e-05
+                              coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_Sphericity -0.28945   0.74867 0.06647  0.65722  0.85285 -3.78
+                              P
+original_shape_Sphericity 2e-04
+                                        coef exp.coef.      SE lower_ci
+original_glrlm_GrayLevelNonUniformity 0.22981   1.25836 0.07274  1.09116
+                                      upper_ci    Z     P
+original_glrlm_GrayLevelNonUniformity  1.45118 3.55 4e-04
+                                            coef exp.coef.      SE lower_ci
+wavelet.HLH_glrlm_GrayLevelNonUniformity 0.19422   1.21436 0.07145  1.05567
+                                         upper_ci Z     P
+wavelet.HLH_glrlm_GrayLevelNonUniformity  1.39691 3 0.003
+
+
+                                            coef exp.coef.      SE lower_ci
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.34286   0.70974 0.27547  0.41363
+original_glrlm_GrayLevelNonUniformity    -0.24965   0.77908 0.32679  0.41059
+original_shape_Sphericity                -0.19751   0.82077 0.07381  0.71022
+original_shape_MeshVolume                -1.91095   0.14794 1.12736  0.01624
+original_firstorder_Energy                2.66606  14.38316 1.10193  1.65910
+                                          upper_ci     Z      P
+wavelet.HLH_glrlm_GrayLevelNonUniformity   1.21782 -1.05   0.29
+original_glrlm_GrayLevelNonUniformity      1.47825 -0.68   0.50
+original_shape_Sphericity                  0.94853 -2.43   0.02
+original_shape_MeshVolume                  1.34807 -0.76   0.45
+original_firstorder_Energy               124.69151 12.15 <2e-16
+
+
+                                             coef exp.coef.      SE lower_ci
+original_shape_MeshVolume                 0.54253   1.72036 0.23874  1.07745
+original_shape_Sphericity                -0.20348   0.81589 0.07340  0.70656
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.37694   0.68596 0.23056  0.43656
+                                         upper_ci     Z     P
+original_shape_MeshVolume                 2.74687  3.02 0.003
+original_shape_Sphericity                 0.94213 -2.51 0.012
+wavelet.HLH_glrlm_GrayLevelNonUniformity  1.07784 -1.36 0.173
+
+
+                              coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.17344   1.18939 0.07575  1.02528  1.37976  2.50
+original_shape_Sphericity -0.23308   0.79209 0.07136  0.68870  0.91100 -2.91
+                              P
+original_shape_MeshVolume 0.012
+original_shape_Sphericity 0.004
+
+Validate results - 1932 to 1936
+(R model - HN3 (0.634), with four nodes 0.62)
+
+Train on 5 - validate on node - 5
+
+Concordance Index\": 0.6342804766269478
+{"Concordance Index": 0.6342804766269478}
+
+Train on 5 - validate on node - 4
+
+Concordance Index\": 0.5422202797202798
+local - {"Concordance Index": 0.5422494172494172}
+
+Train on 5 - validate on node - 3
+
+Concordance Index\": 0.5712234348075819
+{"Concordance Index": 0.5715106260769672}
+
+Train on 5 - validate on node - 2
+
+Concordance Index\": 0.6808561693142007
+{"Concordance Index": 0.6808561693142007}
+
+Train on 5 - validate on node - 1
+
+Concordance Index\": 0.6152362584378014
+{"Concordance Index": 0.6152362584378014}
+
+Train on 4 - validate on node - 5
+
+                              coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.15486   1.16750 0.07998  0.99810  1.36564  2.09
+original_shape_Sphericity -0.23040   0.79422 0.07567  0.68474  0.92119 -2.72
+                              P
+original_shape_MeshVolume 0.036
+original_shape_Sphericity 0.007
+
+Concordance Index\": 0.5251533742331288 (1st Run)
+Concordance Index\": 0.6278643446379468 (Modified script)
+{"Concordance Index": 0.6278643446379468}
+
+
+Train 4 - validate on node 4
+
+                             coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.30316   1.35413 0.09708  1.11950  1.63794  3.65
+original_shape_Sphericity -0.26706   0.76563 0.09062  0.64103  0.91444 -2.59
+                              P
+original_shape_MeshVolume 3e-04
+original_shape_Sphericity  0.01
+
+Concordance Index\": 0.47145834734081893
+Concordance Index\": 0.5377039627039627
+{"Concordance Index": 0.5377039627039627}
+
+Train 4 - validate on node 3
+
+                              coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.14903   1.16070 0.07892  0.99436  1.35488  2.04
+original_shape_Sphericity -0.27423   0.76015 0.07420  0.65727  0.87915 -3.23
+                              P
+original_shape_MeshVolume 0.042
+original_shape_Sphericity 0.001
+
+Concordance Index\": 0.5961910910264687
+Concordance Index\": 0.5626076967260195
+{"Concordance Index": 0.5626076967260195}
+
+
+Train 4 - validate on node 2
+
+                            coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.14657   1.15786 0.08981  0.97097  1.38071  1.76
+original_shape_Sphericity -0.13318   0.87531 0.08378  0.74276  1.03152 -1.49
+                             P
+original_shape_MeshVolume 0.08
+original_shape_Sphericity 0.14
+
+Concordance Index\": 0.46342828361967653
+Concordance Index\": 0.6770648365887604
+{"Concordance Index": 0.6770648365887604}
+
+Train 4 - validate on node 1
+
+                             coef exp.coef.      SE lower_ci upper_ci     Z
+original_shape_MeshVolume  0.15944   1.17285 0.08179  0.99913  1.37678  2.11
+original_shape_Sphericity -0.25179   0.77741 0.07747  0.66789  0.90488 -2.87
+                              P
+original_shape_MeshVolume 0.035
+original_shape_Sphericity 0.004
+
+Concordance Index\": 0.5313531353135313
+Concordance Index\": 0.6166827386692382
+{"Concordance Index": 0.6166827386692382}

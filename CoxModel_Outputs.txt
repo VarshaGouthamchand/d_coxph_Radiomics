@@ -1,0 +1,74 @@
+                             coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.40197   1.49477 0.17562  1.05946  2.10894 2.82
+                              P
+original_shape_MeshVolume 0.005
+
+
+                              coef exp.coef.     SE lower_ci upper_ci    Z
+original_firstorder_Energy 0.40354   1.49711 0.1751   1.0622   2.1101 2.84
+                               P
+original_firstorder_Energy 0.005
+
+
+original_shape_Sphericity -0.24848   0.77998 0.15251  0.57845  1.05173 -1.44
+                            P
+original_shape_Sphericity 0.1
+
+                                         coef exp.coef.      SE lower_ci
+original_glrlm_GrayLevelNonUniformity 0.40697   1.50226 0.17703  1.06183
+                                      upper_ci    Z     P
+original_glrlm_GrayLevelNonUniformity  2.12538 2.84 0.005
+
+
+                                            coef exp.coef.     SE lower_ci
+wavelet.HLH_glrlm_GrayLevelNonUniformity 0.37184   1.45041 0.1718  1.03574
+                                         upper_ci    Z     P
+wavelet.HLH_glrlm_GrayLevelNonUniformity  2.03108 2.62 0.009
+
+
+
+
+Train on all 4 - expect node 5
+                            coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.40197   1.49477 0.17562  1.05946  2.10894 2.82
+                              P
+original_shape_MeshVolume 0.005
+
+Train on all 4 - expect node 4
+                              coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.60133   1.82455 0.11883  1.44545  2.30306 6.94
+                              P
+original_shape_MeshVolume 4e-12
+
+Train on all 4 - expect node 3
+original_shape_MeshVolume 0.40197   1.49477 0.17562  1.05946  2.10894 2.82
+                              P
+original_shape_MeshVolume 0.005
+
+rain on all 4 - expect node 2
+                             coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.40197   1.49477 0.17562  1.05946  2.10894 2.82
+                              P
+original_shape_MeshVolume 0.005
+
+Train on all 4 - expect node 1
+                             coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.60133   1.82455 0.11883  1.44545  2.30306 6.94
+                              P
+original_shape_MeshVolume 4e-12
+
+
+
+Train on node 1 - validate on node 2
+                             coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.40197   1.49477 0.17562  1.05946  2.10894 2.82
+                              P
+original_shape_MeshVolume 0.005
+
+{"Concordance Index": 0.6735387192851824}
+
+Train on node 3
+original_shape_MeshVolume 0.32605   1.38549 0.22073   0.8989  2.13546 1.75
+                             P
+original_shape_MeshVolume 0.08
+

@@ -1,0 +1,49 @@
+Montreal and HN1
+
+                                             coef exp.coef.      SE lower_ci
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.51892   0.59516 0.66909  0.16036
+original_glrlm_GrayLevelNonUniformity    -0.00201   0.99800 0.82375  0.19858
+original_shape_Sphericity                -0.05958   0.94216 0.14909  0.70342
+original_shape_MeshVolume                 2.66671  14.39254 3.65097  0.01123
+original_firstorder_Energy               -1.86071   0.15556 4.10890  0.00005
+                                            upper_ci     Z     P
+wavelet.HLH_glrlm_GrayLevelNonUniformity     2.20890 -0.61   0.5
+original_glrlm_GrayLevelNonUniformity        5.01553  0.00   1.0
+original_shape_Sphericity                    1.26192 -0.39   0.7
+original_shape_MeshVolume                18446.15451  3.67 2e-04
+original_firstorder_Energy                 489.18170 -0.21   0.8
+
+Montreal, Hn1 and MDA
+
+                                            coef exp.coef.      SE lower_ci
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.22018   0.80237 0.38599  0.37654
+original_glrlm_GrayLevelNonUniformity    -0.79303   0.45247 0.45532  0.18536
+original_shape_Sphericity                -0.21509   0.80647 0.10176  0.66064
+original_shape_MeshVolume                -0.87051   0.41874 1.23636  0.03711
+original_firstorder_Energy                2.17342   8.78831 1.16624  0.89368
+                                         upper_ci     Z     P
+wavelet.HLH_glrlm_GrayLevelNonUniformity  1.70977 -0.51  0.61
+original_glrlm_GrayLevelNonUniformity     1.10450 -1.20  0.23
+original_shape_Sphericity                 0.98448 -1.90  0.06
+original_shape_MeshVolume                 4.72447 -0.47  0.64
+original_firstorder_Energy               86.42270  6.68 2e-11
+
+Montreal, HN3 and MDA
+
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.09300   0.91120 0.39314  0.42166
+original_glrlm_GrayLevelNonUniformity    -0.94762   0.38766 0.46022  0.15729
+original_shape_Sphericity                -0.25498   0.77493 0.10692  0.62842
+original_shape_MeshVolume                -0.69554   0.49880 1.23940  0.04395
+original_firstorder_Energy                2.05464   7.80400 1.16699  0.79242
+                                         upper_ci     Z     P
+wavelet.HLH_glrlm_GrayLevelNonUniformity  1.96906 -0.23  0.82
+original_glrlm_GrayLevelNonUniformity     0.95543 -1.33  0.18
+original_shape_Sphericity                 0.95560 -2.10  0.04
+original_shape_MeshVolume                 5.66147 -0.40  0.69
+original_firstorder_Energy               76.85653  5.83 6e-09
+
+
+                            coef exp.coef.      SE lower_ci upper_ci    Z
+original_shape_MeshVolume 0.4507   1.56941 0.10642  1.27394  1.93341 5.35
+                              P
+original_shape_MeshVolume 9e-08

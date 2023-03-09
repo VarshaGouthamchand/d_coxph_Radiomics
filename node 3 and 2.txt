@@ -1,0 +1,67 @@
+node Montreal and MDA
+
+A container on a node within your collaboration part of run_id=232 has exited with a non-zero status_code
+
+
+node MDA and Montreal
+
+A container on a node within your collaboration part of run_id=232 has exited with a non-zero status_code
+
+Node Montreal
+
+                             coef exp.coef.      SE lower_ci upper_ci    Z    P
+original_shape_MeshVolume 0.32605   1.38549 0.22073   0.8989  2.13546 1.75 0.08
+
+Node HN1 and MDA - ppdli
+
+                            coef exp.coef.      SE lower_ci upper_ci    Z     P
+original_shape_MeshVolume 0.5229   1.68692 0.09704  1.39473   2.0403 7.08 1e-12
+
+Node HN1 and MDA - local
+
+ coef exp.coef.      SE lower_ci upper_ci    Z     P
+original_shape_MeshVolume 0.5229   1.68692 0.09704  1.39473   2.0403 7.08 1e-12
+
+Node HN3
+
+                            coef exp.coef.      SE lower_ci upper_ci    Z     P
+original_shape_MeshVolume 0.51348   1.67109 0.24308  1.03774  2.69101 2.76 0.006
+
+Validation with HN3 
+0.66
+
+OPC
+Concordance Index\": 0.4057971014492754
+
+
+Montreal and HN3, validate MDA
+
+                                             coef exp.coef.      SE lower_ci    upper_ci
+original_shape_MeshVolume                 3.49715  33.02107 3.51595  0.03357 32481.04606
+original_firstorder_Energy               -2.62042   0.07277 3.78814  0.00004   122.03824
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.52628   0.59080 0.59548  0.18389     1.89811
+original_shape_Sphericity                -0.05880   0.94290 0.15740  0.69260     1.28365
+                                             Z      P
+original_shape_MeshVolume                 9.11 <2e-16
+original_firstorder_Energy               -0.24    0.8
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.69    0.5
+original_shape_Sphericity                -0.36    0.7
+
+Concordance Index: 0.6166232315711094
+
+
+Montreal and OPC - not working
+MDA and OPC - not working
+HN1 and HN3 - not working
+
+Montreal
+                                            coef  exp.coef.      SE lower_ci
+original_shape_MeshVolume                 7.82367 2499.06025 4.45838  0.40061
+original_firstorder_Energy               -7.04597    0.00087 4.90594  0.00000
+wavelet.HLH_glrlm_GrayLevelNonUniformity -0.43699    0.64598 0.89074  0.11272
+original_shape_Sphericity                 0.00473    1.00475 0.24027  0.62738
+                                             upper_ci      Z      P
+original_shape_MeshVolume                1.558929e+07 560.31 <2e-16
+original_firstorder_Energy               1.306154e+01  -0.20    0.8
+wavelet.HLH_glrlm_GrayLevelNonUniformity 3.701950e+00  -0.40    0.7
+original_shape_Sphericity                1.609070e+00   0.02    1.0
